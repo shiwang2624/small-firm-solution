@@ -1,0 +1,24 @@
+{
+  "name": "SmallFirm Solution — Billing, Invoicing & GST",
+  "short_name": "SmallFirm",
+  "description": "Billing, invoicing, inventory and GST-ready accounting for small businesses. Works offline; your data stays on your device.",
+  "id": "/",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#F6F8FC",
+  "theme_color": "#2454D8",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    { "src": "brand/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "brand/icon-256.png", "sizes": "256x256", "type": "image/png", "purpose": "any" },
+    { "src": "brand/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "brand/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "New Invoice", "url": "./index.html?action=invoice", "icons": [{ "src": "brand/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Point of Sale", "url": "./index.html?action=pos" }
+  ]
+}
